@@ -1,0 +1,14 @@
+name: GuardGolem
+version: 1.0.0
+main: dev.guardgolem.GuardGolemPlugin
+api-version: '26.3'
+description: Adds a craftable Guard Golem spawn egg. The golem is a personal bodyguard.
+author: GuardGolem
+commands:
+  guardgolem:
+    description: Guard Golem tools
+    usage: /guardgolem debug
+    permission: guardgolem.admin
+permissions:
+  guardgolem.admin:
+    default: op
